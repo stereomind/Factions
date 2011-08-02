@@ -25,7 +25,7 @@ public class FactionsChatEarlyListener extends PlayerListener{
 			parameters.remove(0);
 			CommandSender sender = event.getPlayer();			
 			Factions.instance.handleCommand(sender, parameters);
-			event.setCancelled(true);
+//			event.setCancelled(true);
 			return;
 		}
 		
